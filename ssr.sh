@@ -78,7 +78,7 @@ shadowsocks_password_config() {
 	echo
 	while :; do
 		# echo -e "请输入 "$yellow"Shadowsocks"$none" 密码"
-		read -p "$(echo -e "请输入$yellow Shadowsocks $none密码...(默认密码: ${cyan}233blog.com$none)"): " sspass
+		read -p "$(echo -e "请输入$yellow Shadowsocks $none密码...(默认密码: ${cyan}123456789$none)"): " sspass
 		[ -z "$sspass" ] && sspass="123456789"
 		case $sspass in
 		*[/$]*)
