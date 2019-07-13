@@ -364,7 +364,7 @@ uninstall() {
 clear
 while :; do
 	echo
-	echo "------------------ Shadowsocks安装脚本 by D. ------------------"
+	echo "------------------ Shadowsocks安装脚本 S.D. by D. ------------------"
 	echo
 	echo " 1. 安装"
 	echo
