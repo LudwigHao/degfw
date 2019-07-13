@@ -11,7 +11,7 @@ none='\e[0m'
 [[ $(id -u) != 0 ]] && echo -e "\n 请使用 ${red}root ${none}用户运行 ${yellow}~(^_^) ${none} \n" && exit 1
 
 cmd="apt-get"
-author=DaveHao
+author=D.
 _ss_tmp_dir="/tmp/ss-tmp"
 _ss_tmp_file="/tmp/ss-tmp/shadowsocks-go"
 _ss_tmp_gz="/tmp/ss-tmp/shadowsocks-go.gz"
@@ -364,7 +364,7 @@ uninstall() {
 clear
 while :; do
 	echo
-	echo "........... Shadowsocks-Go 一键安装脚本 & 管理脚本 by $author .........."
+	echo "........... Shadowsocks安装脚本 by $author .........."
 	echo
 	echo " 1. 安装"
 	echo
